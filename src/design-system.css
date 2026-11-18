@@ -1,0 +1,75 @@
+:root{
+    --grey-500: #4D4F62;
+    --grey-400: #6A7178;
+    --white: #FFFFFF;
+    --red: #EA5454;
+    --cyan: #44D3D2;
+    --blue: #549EF2;
+    --orange: #FCAE4A;
+}
+.orange{
+    color: var(--orange);
+}
+.blue{
+    color: var(--blue);
+}
+.cyan{
+    color: var(--cyan);
+}
+.red{
+    color: var(--red);
+}
+.white{
+    color: var(--white);
+}
+.grey-400{
+    color: var(--grey-400);
+}
+.grey-500{
+    color: var(--grey-500);
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    font-family: "Poppins", sans-serif;
+}
+
+.text-preset-1{
+    font-size: 2rem;
+    line-height: 140%;
+    letter-spacing: 0.25px;
+    font-weight: 600;
+}
+
+.text-preset-2{
+    font-weight: 200;
+    font-size: 2rem;
+    line-height: 140%;
+    letter-spacing: 0.25px;
+}
+
+.text-preset-3{
+    font-weight: 600;
+    font-size: 1.25rem;
+    line-height: 135%;
+    letter-spacing: 0px;
+}
+
+.text-preset-4{
+    font-size: 1rem;
+    line-height: 140%;
+    letter-spacing: 0px;
+    font-weight: 400;
+}
+
+.text-preset-5{
+    font-weight: 400;
+    font-size: 0.8125rem;
+    line-height: 160%;
+    letter-spacing: 0px;
+}
